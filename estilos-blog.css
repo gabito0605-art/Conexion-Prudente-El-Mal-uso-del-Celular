@@ -159,6 +159,7 @@ main{
 
     .TITULO{
         font-size: 13px;
+        padding: 12px;
     }
 
     .contenedordearticulos  p{
@@ -172,6 +173,7 @@ main{
 
     .TITULO{
         font-size: 10px;
+        padding:8px;
     }
 
     .texto {
@@ -190,6 +192,7 @@ main{
 
     .TITULO{
         font-size: 7px;
+        padding: 6px;
     }
 
 
