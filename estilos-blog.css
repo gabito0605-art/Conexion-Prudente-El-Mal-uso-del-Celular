@@ -133,7 +133,7 @@ main{
     }
 
     .TITULO{
-        font-size: 21px;
+        font-size: 22px;
     }
 }
 @media screen and (max-width: 1060px){
@@ -142,7 +142,7 @@ main{
         
     }
     .TITULO{
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .contenedordearticulos p{
@@ -157,7 +157,7 @@ main{
     }
 
     .TITULO{
-        font-size: 13px;
+        font-size: 15px;
     
     }
 
@@ -171,7 +171,7 @@ main{
     }
 
     .TITULO{
-        font-size: 10px;
+        font-size: 12px;
 
 
     }
@@ -191,7 +191,7 @@ main{
     }
 
     .TITULO{
-        font-size: 7px;
+        font-size: 10px;
  
     }
 
