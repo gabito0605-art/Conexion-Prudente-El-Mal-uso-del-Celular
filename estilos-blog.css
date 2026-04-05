@@ -176,8 +176,8 @@ main{
 
     }
 
-    .texto {
-  font-size: 9px;
+     .contenido p{
+  font-size: 1.2rem;
   line-height: 1.2;
   color: white;
   margin: 0;
