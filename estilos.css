@@ -192,7 +192,8 @@ main{
 }
 
 .texto1 p{
-		font-size: 24px;
+		font-size: 1.3rem;
+  		line-height: 1.4;
 	}
 
 
@@ -328,8 +329,10 @@ justify-content: center;
 		margin-top: 28%;
 	}
 
-
-
+	.texto2 p{
+		font-size: 1.3rem;
+  		line-height: 1.4;
+	}
 }
 
 @media screen and (max-width: 390px) {
