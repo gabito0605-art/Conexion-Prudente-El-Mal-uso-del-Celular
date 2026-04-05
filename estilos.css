@@ -1,0 +1,342 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+	font-family: monospace;
+}
+body{
+	background-image: url('1.png');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;   
+     background-attachment : fixed;
+}
+
+header{
+	position: fixed;
+	z-index: 100;
+	display: flex;
+	justify-content: space-around;
+	height: auto;
+	min-height: 80px;
+	width: 100%;
+	background-color: #2e4957;
+	padding-top: 0.8rem 5%;
+	padding-bottom: 0.8rem;
+	align-items: center;
+	top: 0;
+}
+
+.logo {
+	display: flex;
+}
+
+.logo img{
+	max-height: 100px;
+	max-width: 190px;
+}
+
+
+.encabezado{
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+	}
+
+.nav-link{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	padding: 15px;
+	font-size: 16px;
+}
+
+.nav-link:hover{
+	text-decoration: underline solid white;
+}
+
+main{
+	margin-top: 80px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.TITULO{
+	position: fixed;
+	justify-content: center;
+	align-items: center;
+	z-index: 1000;
+	background-color: #52796c;
+	padding: 20px;
+	left: 50%;
+  	transform: translateX(-50%);
+  	font-size: 25px;
+  	font-family: monospace;
+  	color: white;
+  }
+
+.texto1{
+	max-width: 1800px;
+	min-height: 500px;
+	padding: 1rem;
+	border: 2px solid black;
+	display: flex;
+	margin: 10%;
+	margin-top: 8%;
+	justify-content: space-around;
+	border-bottom-left-radius: 90px;
+	border-bottom-right-radius: 90px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-color: #2e4957;
+	flex-wrap: wrap;
+}
+
+.texto1 p{
+	font-family: monospace;
+	font-size: 32px;
+	font-weight: 100;
+	max-width:  65%;
+	color: white;
+	border-radius: 200px;
+}
+
+.texto1 img{
+	border-radius: 100px;
+	width: 330px;
+	margin: 8px;
+}
+
+.img-responsive{
+	display: none;
+}
+
+.vamos{
+	background-color: #2e4957;
+	padding: 1rem;
+	position: sticky;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	border:2px solid black;
+     right: 2px;
+    bottom: 2px;  
+    max-width: 480px;
+    float: right;
+    
+  
+}
+
+
+
+@media screen and (max-width: 1290px) {
+	.texto1{
+		margin-top: 15%;
+		
+	}
+
+	.img-responsive{
+		display: block;
+	}
+
+	.imagen1{
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 1060px){
+	.texto1{
+		margin-top: 23%;
+		
+	}
+	.TITULO{
+		font-size: 20px;
+	}
+
+	.texto1 p{
+		font-size: 30px;
+	}
+
+}
+
+@media screen and (max-width: 800px){
+	.texto1{
+		margin-top: 26%;
+
+	}
+
+	.TITULO{
+		font-size: 15px;
+	}
+
+	.texto1 p{
+		font-size: 27px;
+	}
+}
+
+	
+
+@media screen and (max-width: 445px) {
+	.texto1{
+		margin-top: 28%;
+		padding: 1px;
+	}
+
+	.TITULO{
+		font-size: 12px;
+	}
+.texto1 img{
+	width: 230px;
+}
+
+.texto1 p{
+		font-size: 24px;
+	}
+
+
+}
+
+@media screen and (max-width: 390px) {
+	.texto1{
+		margin-top: 28%;
+	}
+
+	.TITULO{
+		font-size: 10px;
+	}
+
+
+	.nav-link{
+		font-size: 13px;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+/* QUienes somos*/
+
+.texto2{
+	max-width: 1800px;
+	min-height: 500px;
+	padding: 1rem;
+	border: 2px solid black;
+	display: flex;
+	margin: 10%;
+	margin-top: 8%;
+	justify-content: space-around;
+	border-bottom-left-radius: 70px;
+	border-bottom-right-radius: 70px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-color: #2e4957;
+	flex-wrap: wrap;
+	color: white;
+}
+
+.texto2 p{
+	font-family: monospace;
+	font-size: 25px;
+	font-weight: 100;
+	color: white;
+	border-radius: 200px;
+}
+
+.texto2 img{
+	border-radius: 100px;
+	width: 260px;
+	margin: 8px;
+}
+
+.img-responsive2{
+	display: none;
+}
+
+.t3{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+
+}
+
+.int{
+margin: 1rem;
+padding: 1rem;
+border: 2px solid black;
+border-radius: 30px;
+background-color: #2e4957;
+width: 300px;
+color: white;
+justify-content: center;
+}
+
+.int img{
+	width: 225px;
+	border-radius: 40px;
+}
+
+
+@media screen and (max-width: 1290px) {
+	.texto2{
+		margin-top: 15%;
+		
+	}
+
+}
+
+
+@media screen and (max-width: 1060px){
+	.texto2{
+		margin-top: 23%;
+		
+	}
+}
+
+@media screen and (max-width: 800px){
+	.texto2{
+		margin-top: 26%;
+
+	}
+
+.texto2 img{
+	max-width: 230px;
+	margin: 5px;
+}
+.img-responsive2{
+	display: block;
+}
+
+.img-cp{
+	display: none;
+}
+}
+
+	
+
+@media screen and (max-width: 445px) {
+	.texto2{
+		margin-top: 28%;
+	}
+
+
+
+}
+
+@media screen and (max-width: 390px) {
+	.texto2{
+		margin-top: 28%;
+	}
+
+
+
+}
